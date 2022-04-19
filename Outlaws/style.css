@@ -3,6 +3,8 @@
     overflow: auto;
   }
   
+
+
   nav {
     float: left;
   }
@@ -56,6 +58,7 @@
     float: left;
     width: 20%;
     padding: 5px;
+    min-width: 250px;
   }
   
   /* Clear floats after image containers */
@@ -68,12 +71,16 @@
   .row img {
       width: 100px;
       height: 500px;
-      
+      display:         flex;
+      flex-wrap:       wrap;
+      justify-content: center;
   }
 
   .row {
       padding-top: 50px;
-      padding-left: 250px;
+      display:         flex;
+      flex-wrap:       wrap;
+      justify-content: center;
   }
 
   .social-icons {
