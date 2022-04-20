@@ -1,148 +1,155 @@
 .container{
-    clear: both;
-    overflow: auto;
-  }
-  
-
-
-  nav {
-    float: left;
-  }
-  
-  .logo img {
-    float: left;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    padding-left: 10px;
-    padding-top: 10px;
-  }
-  
-
-  nav a{
-    text-decoration:none;
+  clear: both;
+  overflow: auto;
 }
 
-  ul li {
-    display: inline-block; padding: 10px;
-    font-size: 40px; font-family: 'Dancing Script', cursive;
-    margin: 10px;
-    padding-top: 80px;
-    text-decoration: none;
-  }
-  a:link {
-    color: black;
-  }
 
-  a:visited {
-    display: inline-block; padding: 10px;
-    font-size: 40px; font-family: 'Dancing Script', cursive;
-    margin: 10px;
-    padding-top: 80px;
-    text-decoration: none;
-    color: black;
-  }
 
-  a:hover{
-    color:#f6a9c9;
-    text-decoration: none;
-  }
-  
-  ul li:hover{
-    color:#f6a9c9;
-    text-decoration: none;
-  }
+nav {
+  float: left;
+}
 
- /* Three image containers (use 25% for four, and 50% for two, etc) */
- .column {
-    float: left;
-    width: 20%;
-    padding: 5px;
-    min-width: 250px;
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  } 
+.logo img {
+  float: left;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
 
-  .row img {
-      width: 100px;
-      height: 500px;
-      display:         flex;
-      flex-wrap:       wrap;
-      justify-content: center;
-  }
 
-  .row {
-      padding-top: 50px;
-      display:         flex;
-      flex-wrap:       wrap;
-      justify-content: center;
-  }
+nav a{
+  text-decoration:none;
+}
 
-  .social-icons {
-    text-align: center;
-    }
-  .social-icons li {
-    display:inline-block;
-    list-style-type:none;
-    }
-  .social-icons li a {
-    border-bottom: none;
-    }
-  .social-icons li img {
-    width:50px;
-    height:50px;
-    margin-right: 20px;
-  }
+ul li {
+  display: inline-block; padding: 10px;
+  font-size: 40px; font-family: 'Dancing Script', cursive;
+  margin: 10px;
+  padding-top: 80px;
+  text-decoration: none;
+}
+a:link {
+  color: black;
+}
 
-  /* footer section */
-footer {
-    padding: 0.6em;
-    background-color: white;
-    color: #f6a9c9; color: black;
-    text-align: center;
-    font-size: large;
-    font-family: 'Dancing Script', cursive;
- }
- .accent {
-    font-weight: bold;
- }
+a:visited {
+  display: inline-block; padding: 10px;
+  font-size: 40px; font-family: 'Dancing Script', cursive;
+  margin: 10px;
+  padding-top: 80px;
+  text-decoration: none;
+  color: black;
+}
 
- #main {
-  padding: 40px;
+a:hover{
+  color:#f6a9c9;
+  text-decoration: none;
+}
+
+ul li:hover{
+  color:#f6a9c9;
+  text-decoration: none;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  min-width: 250px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+.row img {
+    width: 100px;
+    height: 500px;
+    display:         flex;
+    flex-wrap:       wrap;
+    justify-content: center;
+}
+
+.row {
+    padding-top: 50px;
+    display:         flex;
+    flex-wrap:       wrap;
+    justify-content: center;
+}
+
+.social-icons {
   text-align: center;
-  width: 400px;
-  margin: 0 auto;
- }
+  }
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:50px;
+  height:50px;
+  margin-right: 20px;
+}
 
- #main h1 {
-  font-size: 80px; 
+/* footer section */
+footer {
+  padding: 0.6em;
+  background-color: white;
+  color: #f6a9c9; color: black;
+  text-align: center;
+  font-size: large;
   font-family: 'Dancing Script', cursive;
- }
+}
+.accent {
+  font-weight: bold;
+}
 
- #main h3 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 30px;
- }
+#main {
+padding: 40px;
+text-align: center;
+width: 400px;
+margin: 0 auto;
+}
 
- #contact {
-   padding: 40px;
-   text-align: center;
-   width: 400px;
-   margin: 0 auto;
- }
+#main h1 {
+font-size: 80px; 
+font-family: 'Dancing Script', cursive;
+}
 
- #contact h1 {
-  font-size: 60px;
-  font-family: 'Cormorant Garamond', serif;
-  
- }
+#main h3 {
+font-family: 'Cormorant Garamond', serif;
+font-size: 30px;
+}
 
- #contact h3 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 30px;
- }
+#contact {
+ padding: 40px;
+ text-align: center;
+ width: 400px;
+ margin: 0 auto;
+}
+
+#contact h1 {
+font-size: 60px;
+font-family: 'Cormorant Garamond', serif;
+
+}
+
+#contact h3 {
+font-family: 'Cormorant Garamond', serif;
+font-size: 30px;
+}
+
+#contact h1 {
+  border: 5px double #f6a9c9;
+  border-width: 5px;
+  border-radius: 15%;
+  padding: 50px;
+}
