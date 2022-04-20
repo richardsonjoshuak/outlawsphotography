@@ -153,3 +153,10 @@ font-size: 30px;
   border-radius: 15%;
   padding: 50px;
 }
+
+#section img {
+  border: double;
+  border-color: #f6a9c9;
+  border-width: 5px;
+  border-radius: 5%;
+}
